@@ -32,7 +32,13 @@ const App = () => {
             position-y={-1.2}
             rotation-x={0.13}
           >
-            <Html transform wrapperClass="htmlScreen" distanceFactor={1.17}>
+            <Html
+              transform
+              wrapperClass="htmlScreen"
+              distanceFactor={1.17}
+              position={[0, 1.56, -1.4]}
+              rotation-x={-0.256}
+            >
               <iframe src="https://menglay-portfolio.surge.sh/" />
             </Html>
           </primitive>
